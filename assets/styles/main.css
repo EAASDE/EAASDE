@@ -1,0 +1,93 @@
+/* latin */
+@font-face {
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://img1.wsimg.com/gfonts/s/gentiumbasic/v18/Wnz9HAw9aB_JD2VGQVR80We3LA2JiBA8YII.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://img1.wsimg.com/gfonts/s/gentiumbasic/v18/WnzgHAw9aB_JD2VGQVR80We3JLasnTMebaiLbBR2kw.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+header {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.appointment-banner {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 0.214em;
+    background-color: black;
+    color: rgb(226, 226, 226);
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Gentium Basic', Georgia, serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.appointment-banner-flower {
+    height: 30px;
+    max-width: 20px;
+}
+
+.image-logo {
+    padding-top: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #333;
+    padding: 8px 12px;
+    font-family: 'Gentium Basic', Georgia, serif;
+    font-size: 16px;
+}
+
+nav ul li a.selected {
+    text-decoration: underline;
+}
+
+
+/* "Pay My Bill" link on the index page */
+a.paybill         { color: green; }
+a.paybill:hover   { color: darkgreen; }
+a.paybill:visited { color: green; }
+
+
+footer {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+footer .copyright {
+    font-family: 'Gentium Basic', Georgia, serif;
+    font-size: 14px;
+}
